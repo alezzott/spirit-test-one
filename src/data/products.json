@@ -2,21 +2,24 @@
   {
     "id": 1,
     "images": [
-      "https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=1501&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "https://images.unsplash.com/photo-1623425484828-7eccb29713a7?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "https://m.media-amazon.com/images/I/41-RhQeujUL._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/51p81VPXKmL._AC_SX679_.jpg"
   ],
-    "title": "Produto 1",
-    "description": "Descrição breve do Produto 1",
-    "fullDescription": "Descrição completa do Produto 1",
-    "price": 100.00
+    "title": "Apple notebook MacBook Air",
+    "description": "Tela retroiluminada por LED de 13,3 polegadas (diagonal) com tecnologia IPS; Resolução nativa de 2560 por 1600 a 227 pixels por polegada com suporte para milhões de cores",
+    "fullDescription": "Processador M1 concebido pela Apple para um enorme avanço no desempenho da CPU, GPU e aprendizagem automática, Mais produtividade com maior autonomia: até 18 horas",
+    "price": 7699.99
   },
   {
     "id": 2,
-    "images": "caminho/para/imagem2.jpg",
-    "title": "Produto 2",
-    "description": "Descrição breve do Produto 2",
-    "fullDescription": "Descrição completa do Produto 2",
-    "price": 150.00
+    "images": [
+      "https://m.media-amazon.com/images/I/51W6Tzbyu5L._AC_SX679_.jpg",
+      "https://m.media-amazon.com/images/I/41FtWld+l+L._AC_SX679_.jpg"
+    ],
+    "title": "Apple notebook MacBook Air de 13 polegadas",
+    "description": "Chip M2 da Apple com CPU de oito núcleos e GPU de oito núcleos, de 256 GB SSD - Meia-noite",
+    "fullDescription": "Camera e áudio avançados – Cause uma bela impressão com a câmera FaceTime HD de 1080p, conjunto de três microfones e sistema de som com quatro alto-falantes e Áudio Espacial",
+    "price": 13299.00
   },
   {
     "id": 3,
