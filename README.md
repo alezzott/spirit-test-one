@@ -51,3 +51,28 @@ A porta 80 é a porta padrão definida no arquivo `docker-compose.yml`. Se prefe
 ## 6. Uso da Aplicação
 
 Agora que a aplicação está em execução, você pode visualizar os produtos, fazer avaliações e ver a média das avaliações para cada produto.
+
+
+## Teste Conceitual: Solução de Problema
+
+### 1. Como você diagnosticaria e identificaria as causas específicas desses problemas de performance e usabilidade no mobile?
+
+* Testaria o site em diferentes dispositivos móveis, tanto Android quanto iOS, com diferentes tamanhos de tela e resoluções. Além de verificar  a compatibilidade do site com diferentes navegadores móveis, como Chrome, Safari, Firefox, entre outros.
+
+* Realização de testes em dispositivos móveis para entender as dificuldades na interação com a interface.
+
+* Avaliaria o uso de recursos da página, como imagens de alta resolução não otimizadas, scripts desnecessários e plugins de terceiros que impactam negativamente o desempenho.
+
+### 2. Que estratégias e ferramentas você utilizaria para otimizar a performance do site no mobile?
+
+* Uso de técnicas de carregamento preguiçoso [lazyloading](https://react.dev/reference/react/lazy)
+
+* Evitar o uso excessivo de animações e transições complexas que possam sobrecarregar a GPU dos dispositivos móveis.
+
+### 3. Como você melhoraria a usabilidade da interface para usuários de dispositivos móveis, garantindo que a experiência seja tão boa quanto no desktop?
+
+* Forneceria feedback visual imediato para ações do usuário, como pressionar um botão ou enviar um formulário, para indicar que a interação foi reconhecida.
+
+* Utilizaria marcação semântica apropriada, como tags HTML adequadas e atributos ARIA, para tornar o conteúdo compreensível para leitores de tela e outros dispositivos assistivos.
+
+* Priorizaria o uso de layouts fluidos, unidades flexíveis (por exemplo, % em vez de px) e media queries para ajustar o conteúdo com base nas características do dispositivo.
