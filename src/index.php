@@ -14,7 +14,7 @@
 
     <!-- Barra de navegação -->
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Minha Loja</a>
+        <a class="navbar-brand" href="/">Minha Loja</a>
     </nav>
 
     <div class="container mt-5">
@@ -47,7 +47,7 @@
                     ';
             }
             ?>
-            <div id="no-products-message">
+            <div id="no-products-message" style="display: none;">
                 <p class="mt-3">
                     Nenhum produto encontrado.
                 </p>
