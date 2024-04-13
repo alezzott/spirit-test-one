@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1550009158-9ebf69173e03?q=80&w=1501&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1623425484828-7eccb29713a7?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  ],
+    "title": "Produto 1",
+    "description": "Descrição breve do Produto 1",
+    "fullDescription": "Descrição completa do Produto 1",
+    "price": 100.00
+  },
+  {
+    "id": 2,
+    "images": "caminho/para/imagem2.jpg",
+    "title": "Produto 2",
+    "description": "Descrição breve do Produto 2",
+    "fullDescription": "Descrição completa do Produto 2",
+    "price": 150.00
+  },
+  {
+    "id": 3,
+    "images": "caminho/para/imagem3.jpg",
+    "title": "Produto 3",
+    "description": "Descrição breve do Produto 3",
+    "fullDescription": "Descrição completa do Produto 3",
+    "price": 200.00
+  }
+]
