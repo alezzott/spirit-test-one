@@ -15,7 +15,7 @@
 
 <body>
     <nav class="navbar navbar-dark bg-dark p-3">
-        <a class="navbar-brand" href="#">Minha Loja</a>
+        <a class="navbar-brand" href="/">Alezzo shop</a>
     </nav>
 
     <div class="container mt-5">
@@ -52,7 +52,6 @@
                 <p><?php echo $product['fullDescription']; ?></p>
                 <p><strong>Preço:</strong> R$ <?php echo number_format($product['price'], 2, ',', '.'); ?></p>
 
-
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ratingModal">
                     Faça uma avaliação
                 </button>
@@ -81,7 +80,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="mt-3" id="average-rating">Avaliação média: 0</div>
             </div>
         </div>

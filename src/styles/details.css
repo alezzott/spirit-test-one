@@ -1,6 +1,6 @@
 .rating button {
-    background-color: transparent; /* Define o fundo como transparente */
+    background-color: transparent; 
     border: none;
-    padding: 0; /* Remove o padding para eliminar o espaçamento interno */
+    padding: 0;
     cursor: pointer;
 }

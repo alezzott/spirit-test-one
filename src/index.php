@@ -22,10 +22,6 @@
                 onkeyup="productsFilter()">
         </div>
 
-
-
-
-
         <h1 class="mt-3 text-product display-5">Lista de Produtos</h1>
         <div class="row pt-3" id="product-grid">
             <?php

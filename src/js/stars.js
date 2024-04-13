@@ -21,8 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function calculateAverageRating() {
         const ratings = getRatings();
+        if (ratings.length === 0) {
+            return 0;
+        }
         const totalRating = ratings.reduce((acc, curr) => acc + curr, 0);
-        return ratings.length ? totalRating / ratings.length : 0;
+        return totalRating / ratings.length;
     }
 
     function updateAverageRating() {
@@ -37,19 +40,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-stars.forEach(star => {
-    star.addEventListener('click', () => {
-        const rating = parseInt(star.dataset.value);
-        if (!isNaN(rating) && rating >= 1 && rating <= 5) {
-            console.log(`Avaliação selecionada: ${rating}`);
-            saveRating(rating);
-            updateAverageRating();
-            updateStars(rating);
-        } else {
-            console.error('Avaliação inválida. Deve ser um número inteiro entre 1 e 5.');
-        }
+    stars.forEach(star => {
+        star.addEventListener('click', () => {
+            const rating = parseInt(star.dataset.value);
+            if (!isNaN(rating) && rating >= 1 && rating <= 5) {
+                console.log(`Avaliação selecionada: ${rating}`);
+                saveRating(rating);
+                updateAverageRating();
+                updateStars(rating);
+            } else {
+                console.error('Avaliação inválida. Deve ser um número inteiro entre 1 e 5.');
+            }
+        });
     });
-});
 
     initializeRatings();
     updateAverageRating();
